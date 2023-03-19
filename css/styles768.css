@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+
+  
+  /*Header---------------------------------------------------------------------------------------------------*/
+  
+  header {
+    width: 100%;
+    height: 20vw;
+    border: 1px solid #000000;
+    background-color: #c3ae83;
+  }
+  
+  
+  
+  
+  /* Main ---------------------------------------------------------------------------------------------------*/
+  main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e8dfcc;
+    border: 1px solid #000000;
+  }
+  
+  
+  
+  /* welcome-section ------------------------------------------------------*/
+  
+  .section1 {
+  
+  }
+  
+  .section2 {
+  
+  }
+  
+  .section3 {
+  
+  }
+  
+  .section4 {
+  
+  }
+  
+  
+  
+  
+  
+  /* Footer --------------------------------------------------------------------------------------------*/
+  
+  footer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #665f4f;
+  border: 1px solid #000000;
+  }
+  
+  
+  }
