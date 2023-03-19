@@ -63,7 +63,47 @@ header {
     background-color: #c3ae83;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  margin-top: 2vw;
+}
 
+.burger {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: aqua;
+}
+
+.burger span {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #000000;
+  left: 5px;
+}
+
+.burger span:nth-child(1) {
+  transform: translateY(-10px);
+}
+
+.burger span:nth-child(3) {
+  transform: translateY(10px);
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 6vw;
+  padding: 0;
+  margin: 0;
+}
 
 
 /* Main ---------------------------------------------------------------------------------------------------*/
