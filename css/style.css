@@ -11,11 +11,11 @@
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
 }
 
 a:visited {
-  color: #000000;
+  color: #fff;
 }
 
 ul,
@@ -78,6 +78,7 @@ header {
   height: 40px;
   border: none;
   background-color: aqua;
+  cursor: pointer;
 }
 
 .burger span {
@@ -86,6 +87,7 @@ header {
   height: 3px;
   background-color: #000000;
   left: 5px;
+  transition: transform 0.5s opacity 0.5s background-color 0.5s;
 }
 
 .burger span:nth-child(1) {
@@ -95,6 +97,19 @@ header {
 .burger span:nth-child(3) {
   transform: translateY(10px);
 }
+
+header.open .burger span:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+}
+
+header.open .burger span:nth-child(2){
+  opacity: 0;
+}
+
+header.open .burger span:nth-child(3){
+  transform: translateY(0) rotate(-45deg);
+}
+
 
 .nav-ul {
   display: flex;
