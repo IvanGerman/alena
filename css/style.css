@@ -169,3 +169,32 @@ footer {
   background-color: #665f4f;
   border: 1px solid #000000;
 }
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+#progress {
+  /* background-color: #22ca3b; */
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  width: 70px;
+  height: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#progress-value {
+  display: block;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #000000;
+}
